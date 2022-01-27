@@ -1,0 +1,10 @@
+public class Main {
+    public static void main(String[] args) {
+        /** Metehan Elmas **/
+
+        Fighter marc = new Fighter("Marc" , 15 , 100, 90 , 50 , 50);
+        Fighter alex = new Fighter("Alex" , 10 , 95 , 100, 36 ,50);
+        Ring r = new Ring(marc,alex , 90 , 100);
+        r.run();
+    }
+}
